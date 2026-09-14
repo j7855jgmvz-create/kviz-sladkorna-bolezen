@@ -21,6 +21,8 @@ jobs:
         uses: actions/checkout@v4
       - name: Nastavi GitHub Pages
         uses: actions/configure-pages@v5
+        with:
+          enablement: true
       - name: Pripravi stran
         uses: actions/upload-pages-artifact@v3
         with:
